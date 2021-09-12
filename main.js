@@ -57,35 +57,3 @@ info.tooltip({
   animation: false,
   trigger: 'manual',
 });
-
-var displayFeatureInfo = function (pixel) {
-  info.css({
-    left: pixel[0] + 'px',
-    top: pixel[1] - 15 + 'px',
-  });
-  var feature = map.forEachFeatureAtPixel(pixel, function (feature) {
-    return feature;
-  });
-  if (feature) {
-    info.attr('data-original-title', feature.get('name')).tooltip('show');
-  } else {
-    info.tooltip('hide');
-  }
-};
-
-map.on('pointermove', function (evt) {
-  if (evt.dragging) {
-    info.tooltip('hide');
-    return;
-  }
-  displayFeatureInfo(map.getEventPixel(evt.originalEvent));
-});
-
-map.on('click', function (evt) {
-  var pixel = map.getEventPixel(evt.originalEvent);
-  info.css({
-    left: pixel[0] + 'px',
-    top: pixel[1] - 15 + 'px',
-  });
-  info.attr('data-original-title', "clickclick").tooltip('show');
-});
