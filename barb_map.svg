@@ -13,7 +13,7 @@ viewBox="0 0 920 920"
 	.coastal_waters_center {fill:#409DB2}
 	.province_edge {fill:#777777}
 	.white {fill:#FFFFFF}
-	.white:hover {fill: #DBDBDB}
+	.white:hover {fill: #BCBCBC}
 	.lake_edge {fill:#0087AD}
 	.lake_center {fill:#00D6D6}
 	.mount_edge {fill:#000000}
