@@ -1,0 +1,63 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+  "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>SVG Layer</title>
+    <!-- Pointer events polyfill for old browsers, see https://caniuse.com/#feat=pointer -->
+    <script src="https://unpkg.com/elm-pep"></script>
+    <script src="https://cdn.polyfill.io/v3/polyfill.min.js?features=fetch,requestAnimationFrame,Element.prototype.classList,URL,TextDecoder"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+    <style>
+      .map {
+        width: 100%;
+        height: 720px;
+      }
+      #map {
+        background: black;
+      }
+      #info {
+        position: absolute;
+        height: 1px;
+        width: 1px;
+        z-index: 100;
+      }
+      .tooltip.in {
+        opacity: 1;
+      }
+      .tooltip.top .tooltip-arrow {
+        border-top-color: white;
+      }
+      .tooltip-inner {
+        border: 2px solid white;
+      }
+      #kanev {
+        opacity: 0;
+        position: absolute;
+        top: 0;;
+        right: 0;
+        width: 280px;
+        max-width: 100%;
+        height: auto;
+        background: rgba(220, 240, 250, 0.7);
+        border-radius: 20px;
+        padding: 20px;
+    }
+      .svg-layer path:hover {
+        opacity: 0.4;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map" class="map"><div id="info"></div></div>
+    <div id="kanev">
+        <h4>Провинция 333</h4>
+        <h5>пыпвапып</h5>
+      <h5>пыпвапып</h5>
+      <h5>пыпвапып</h5>
+    </div>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
