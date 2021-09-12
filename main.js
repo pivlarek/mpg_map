@@ -14,7 +14,7 @@ var map = new ol.Map({
 
 var svgContainer = document.createElement('div');
 var xhr = new XMLHttpRequest();
-xhr.open('GET', 'title1.svg');
+xhr.open('GET', 'barb_map.svg');
 xhr.addEventListener('load', function () {
   var svg = xhr.responseXML.documentElement;
   svgContainer.ownerDocument.importNode(svg);
