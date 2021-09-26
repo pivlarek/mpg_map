@@ -20,6 +20,7 @@ viewBox="0 0 920 920"
 	.mount_center {fill:#777777}
 	.desert_edge {fill:#B7B7B7}
 	.desert_center {fill:#DBCAAD}
+	.river {fill:#51BABA}
    ]]>
   </style>
  </defs>
@@ -14708,4 +14709,20 @@ viewBox="0 0 920 920"
 	<rect class="distant_waters_center" x="891" y="911" width="8" height="8"/>
 	<rect class="distant_waters_center" x="901" y="911" width="8" height="8"/>
 	<rect class="distant_waters_center" x="911" y="911" width="8" height="8"/>
+	<rect class="river" x="670" y="844" width="6" height="2"/>
+	<rect class="river" x="674" y="834" width="2" height="12"/>
+	<rect class="river" x="676" y="834" width="10" height="2"/>
+	<rect class="river" x="684" y="824" width="2" height="10"/>
+	<rect class="river" x="654" y="804" width="2" height="36"/>
+	<rect class="river" x="656" y="814" width="10" height="2"/>
+	<rect class="river" x="644" y="804" width="10" height="2"/>
+	<rect class="river" x="646" y="794" width="10" height="2"/>
+	<rect class="river" x="644" y="784" width="2" height="20"/>
+	<rect class="river" x="674" y="804" width="12" height="2"/>
+	<rect class="river" x="684" y="784" width="2" height="20"/>
+	<rect class="river" x="686" y="794" width="10" height="2"/>
+	<rect class="river" x="674" y="784" width="10" height="2"/>
+	<rect class="river" x="674" y="774" width="2" height="10"/>
+	<rect class="river" x="666" y="774" width="8" height="2"/>
+	<rect class="river" x="664" y="760" width="2" height="26"/>
  </svg>
